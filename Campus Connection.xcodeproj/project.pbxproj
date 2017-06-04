@@ -13,6 +13,7 @@
 		37F33EB21ED1115800573E2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F33EB11ED1115800573E2A /* Assets.xcassets */; };
 		37F33EB51ED1115800573E2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F33EB31ED1115800573E2A /* LaunchScreen.storyboard */; };
 		37F33EC01ED1115800573E2A /* Campus_ConnectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F33EBF1ED1115800573E2A /* Campus_ConnectionTests.swift */; };
+		37F33ECF1ED153E200573E2A /* onboarding_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 37F33ECE1ED153E200573E2A /* onboarding_background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		37F33EBB1ED1115800573E2A /* Campus ConnectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Campus ConnectionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F33EBF1ED1115800573E2A /* Campus_ConnectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Campus_ConnectionTests.swift; sourceTree = "<group>"; };
 		37F33EC11ED1115800573E2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37F33ECE1ED153E200573E2A /* onboarding_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = onboarding_background.png; path = ../../Downloads/onboarding_background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,10 @@
 		37F33EA91ED1115800573E2A /* Campus Connection */ = {
 			isa = PBXGroup;
 			children = (
+				37F33ECD1ED153BC00573E2A /* assets */,
+				37F33ECC1ED113B100573E2A /* util */,
+				37F33ECB1ED113AA00573E2A /* model */,
+				37F33ECA1ED1139400573E2A /* rest */,
 				37F33EAA1ED1115800573E2A /* AppDelegate.swift */,
 				37F33EAC1ED1115800573E2A /* ViewController.swift */,
 				37F33EAE1ED1115800573E2A /* Main.storyboard */,
@@ -94,6 +100,35 @@
 				37F33EC11ED1115800573E2A /* Info.plist */,
 			);
 			path = "Campus ConnectionTests";
+			sourceTree = "<group>";
+		};
+		37F33ECA1ED1139400573E2A /* rest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = rest;
+			sourceTree = "<group>";
+		};
+		37F33ECB1ED113AA00573E2A /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		37F33ECC1ED113B100573E2A /* util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		37F33ECD1ED153BC00573E2A /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				37F33ECE1ED153E200573E2A /* onboarding_background.png */,
+			);
+			name = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +215,7 @@
 			files = (
 				37F33EB51ED1115800573E2A /* LaunchScreen.storyboard in Resources */,
 				37F33EB21ED1115800573E2A /* Assets.xcassets in Resources */,
+				37F33ECF1ED153E200573E2A /* onboarding_background.png in Resources */,
 				37F33EB01ED1115800573E2A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
